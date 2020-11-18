@@ -12,6 +12,7 @@ public class AleatorioEmple {
 
 	public static void leer() throws IOException {
 		File fichero = new File("AleatorioEmple.dat");
+		System.out.println("Texto de prueba 2");
 		RandomAccessFile file = new RandomAccessFile(fichero, "r");
 		char cad[] = new char[10], aux;
 		String nom;
